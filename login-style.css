@@ -135,6 +135,7 @@
         height: 300px;
         max-width: 500px;
         text-align: center;
+<<<<<<< HEAD
         background: linear-gradient(#000000, #ff0000) padding-box,
         linear-gradient(to right, darkblue, rgb(0, 221, 255)) border-box;
         margin-top:240px;
@@ -176,3 +177,11 @@
   linear-gradient(to right, rgb(0, 0, 0), rgb(255, 0, 0)) border-box;
   
 }
+=======
+        background: linear-gradient(#3966a9, #0fa083a6) padding-box,
+        linear-gradient(to right, darkblue, rgb(0, 221, 255)) border-box;
+        margin-top:14%;
+        border-radius: 10px;
+        border: none;
+    }
+>>>>>>> 53c676be93af36d0fdc62e61084c6346d0bcfe67
