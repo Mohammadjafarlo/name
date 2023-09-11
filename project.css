@@ -1,0 +1,82 @@
+.navar{
+    background: rgb(255,128,0);
+    background: linear-gradient(90deg, rgb(174, 90, 0) 0%,  rgb(255, 128, 0) 100%, rgb(0,212,255,1) 100%); 
+}
+.fontFamily{
+    font-family: IRANYekanThin !important;
+}
+.btn-gradient-1{
+    border-style: none;
+    border-radius: 0px;
+    background: none;
+}
+.btn-gradient-2{
+    border-style: none;
+    border-radius: 3px;
+    background-color: rgb(255, 140, 0);
+    border-width: 2px;
+    border-color: black !important;
+
+}
+.btn-gradient-2:hover{
+    border-style: none;
+    border-radius: 0px;
+    background-color: rgb(255, 140, 0);   
+
+}
+.mydiv{
+    height: 200px;
+    background: #2d2d2d;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.mydiv:hover{
+    height: 200px;
+    
+    border-color: black;
+    border-width: 1px;
+    border-radius: 0px;
+}
+.myimg1{
+    height: 80%;
+}
+.mydiv2{
+    height: 200px;
+    background: #7c7c7c;;
+    transition: 0.3s;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 12px;
+
+}
+.mydiv2:hover{
+    background: #aaa;
+    
+    border-color: black;
+    border-width: 1px;
+    border-radius: 0px;
+}
+.mydiv3{
+    height: 50%;
+    background: rgb(255,255,255);
+    background: linear-gradient(183deg, rgba(255,255,255,0) 0%, rgba(91,91,91,1) 100%);
+    border-color: black;
+    border-width: 2px;
+    border-radius: 12px; 
+    transition: 0.3s;
+    z-index: 0;
+}
+
+.mytext{
+    direction: rtl;
+    color: rgb(207, 207, 207);
+    
+}
+.mytext h3,h1,h2{
+    margin-top: 10px;
+}
+.mytext1{
+    color: #7c7c7c;
+}
