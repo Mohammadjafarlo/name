@@ -1,0 +1,108 @@
+
+.mydiv{
+    height: 1300px;
+    width: 90%;
+    margin: auto;
+    border-radius: 2px;
+}
+.div1{
+    width: 100%;
+    height: 160px;
+    margin-top: 120px;
+    border-radius: 2px;
+}
+.image:hover{
+    cursor: pointer;
+    color:#333333;
+}
+.div2{
+    width: 100%;
+    height: 160px;
+    margin-top: 80;
+    border-radius: 2px;
+}
+.button-list {
+    display: flex;
+  }
+  
+.button-list button {
+    margin-right: 10px;
+  }
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Vazir.eot');
+    src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'), 
+    url('fonts/Vazir.woff2') format('woff2'), 
+    url('fonts/Vazir.woff') format('woff'), 
+    url('fonts/Vazir.ttf') format('truetype');
+   }
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: bold;
+    src: url('fonts/Vazir-Bold.eot');
+    src: url('fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'), 
+    url('fonts/Vazir-Bold.woff2') format('woff2'), 
+    url('fonts/Vazir-Bold.woff') format('woff'), 
+    url('fonts/Vazir-Bold.ttf') format('truetype');
+   } 
+body,html,a,p,h1,span,h2,h5,h3,h4{
+   font-family: 'Vazir', Arial, sans-serif !important;
+   font-weight:normal;
+   direction: rtl;
+   }
+.txt{
+    font-size: 41px;
+   }
+.button-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+.button-list li {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+.button-list li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+  }
+.div3{
+    width: 980;
+    height: 320;
+    border: 1px solid white;
+    margin-top: 80px;
+}
+.hr{
+    color:white;
+    width: 620;
+    margin: auto;
+    margin-top: 20;
+    border:1px solid #F9FAFB;
+}
+.input{
+    height: 30;
+    width: 230;
+}
+.modal-header .btn-close {
+    margin-left: 0;
+    margin-right: auto;
+}
+.div5{
+    width: 500;
+    height: 150;
+    margin-top: 90;
+}
+.hr1{
+    box-shadow: 0 5px 20px 0 rgba(255, 255, 255, 2.0);
+    transition: 1s;
+}
+

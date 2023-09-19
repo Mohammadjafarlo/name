@@ -1,0 +1,54 @@
+.title-asli{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 45px;
+}
+.title-mozo-khabar{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+.input-mozo-khabar{
+    display: inline-block;
+    background-color: #303030;
+    height: 50px;
+    border-radius: 15px;
+    margin-right: 10px;
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Vazir', Arial, sans-serif !important;
+    color: rgb(173, 173, 173);
+    padding: 10px;
+    
+    
+}
+.input-mozo-khabar[type=text]::placeholder {
+    
+    
+    font-size: 20px;
+    
+   }
+.mozo-khabar{
+    margin-top: 50px;
+}
+.box{
+    margin: auto;
+    background-color: #303030;
+    border-radius: 15px;
+    font-family: 'Vazir', Arial, sans-serif !important;
+    color: rgb(173, 173, 173);
+    padding: 10px;
+    display: block;
+    width: 80%;
+    font-size: 30px;
+}
+@media (max-width:992px) {
+    .input-mozo-khabar[type=text]::placeholder{
+        font-size: 20px;
+    }
+}
+@media (max-width:700px) {
+    .input-mozo-khabar[type=text]::placeholder{
+        font-size: 16px;
+    }
+}
